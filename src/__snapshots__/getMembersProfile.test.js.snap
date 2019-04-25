@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getMembersProfile 全員のプロフィールを取得することができる 1`] = `
+Array [
+  Object {
+    "age": 41,
+    "name": "taro",
+  },
+  Object {
+    "age": 32,
+    "name": "hanako",
+  },
+  Object {
+    "age": 21,
+    "name": "jiro",
+  },
+]
+`;
+
+exports[`getMembersProfile 指定した人のプロフィールだけ取得することができる 1`] = `
+Array [
+  Object {
+    "age": 32,
+    "name": "hanako",
+  },
+]
+`;
